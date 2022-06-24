@@ -1,0 +1,21 @@
+.line{
+	border-left: 2px solid #c1c1c1;
+  height: 500px;
+	display: none;
+	position: relative;
+	margin-top: 40px;
+}
+
+@media (min-width: 640px) {
+
+	.line{
+		display: block;
+	}
+	
+}
+
+@media (max-width: 1023px){
+	.line{
+		display: none;
+	}
+}
