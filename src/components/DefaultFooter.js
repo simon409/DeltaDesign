@@ -1,8 +1,10 @@
 import H5 from "@material-tailwind/react/Heading5";
 import LeadText from "@material-tailwind/react/LeadText";
+import { useTranslation } from "react-i18next";
 import Icon from "@material-tailwind/react/Icon";
 
 export default function DefaultFooter() {
+  const [t] = useTranslation();
   return (
     <>
       <footer className="relative bg-gray-100 pt-8 pb-6">
@@ -11,10 +13,7 @@ export default function DefaultFooter() {
             <div className="w-full lg:w-6/12 px-4">
               <H5 color="gray">DeltaDesign</H5>
               <div className="-mt-4">
-                <LeadText color="blueGray">
-                  Easy to use React components for Tailwind CSS and Material
-                  Design.
-                </LeadText>
+                <LeadText color="blueGray">You dream, We make!</LeadText>
               </div>
               <div className="flex gap-2 mt-6 md:justify-start md:mb-0 mb-8 justify-center">
                 <a
@@ -63,46 +62,40 @@ export default function DefaultFooter() {
               <div className="flex flex-wrap items-top">
                 <div className="w-full lg:w-4/12 px-4 ml-auto md:mb-0 mb-8">
                   <span className="block uppercase text-gray-900 text-sm font-serif font-medium mb-2">
-                    Useful Links
+                    {t("useful_link")}
                   </span>
                   <ul className="list-unstyled">
                     <li>
                       <a
-                        href="https://www.creative-tim.com/presentation?ref=mtk"
-                        target="_blank"
-                        rel="noreferrer"
+                        href="/profile"
                         className="text-gray-700 hover:text-gray-900 block pb-2 text-sm"
                       >
-                        About Us
+                        {t("about")}
                       </a>
                     </li>
                     <li>
                       <a
                         className="text-gray-700 hover:text-gray-900 block pb-2 text-sm"
                         target="_blank"
-                        href=" https://www.creative-tim.com/blog?ref=mtk"
+                        href="/" //to do
                       >
                         Blog
                       </a>
                     </li>
                     <li>
                       <a
-                        href="https://www.github.com/creativetimofficial?ref=mtk"
-                        target="_blank"
-                        rel="noreferrer"
+                        href="/"
                         className="text-gray-700 hover:text-gray-900 block pb-2 text-sm"
                       >
-                        News
+                        {t("News")}
                       </a>
                     </li>
                     <li>
                       <a
-                        href=" https://www.creative-tim.com/templates/free?ref=mtk"
-                        target="_blank"
-                        rel="noreferrer"
+                        href="/"
                         className="text-gray-700 hover:text-gray-900 block pb-2 text-sm"
                       >
-                        Discount
+                        {t("discount")}
                       </a>
                     </li>
                   </ul>

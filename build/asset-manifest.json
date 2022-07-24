@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/DeltaDesign/static/css/main.1a1a0a2a.chunk.css",
+    "main.js": "/DeltaDesign/static/js/main.71440630.chunk.js",
+    "main.js.map": "/DeltaDesign/static/js/main.71440630.chunk.js.map",
+    "runtime-main.js": "/DeltaDesign/static/js/runtime-main.8c21fde0.js",
+    "runtime-main.js.map": "/DeltaDesign/static/js/runtime-main.8c21fde0.js.map",
+    "static/css/2.d419838c.chunk.css": "/DeltaDesign/static/css/2.d419838c.chunk.css",
+    "static/js/2.bff3e743.chunk.js": "/DeltaDesign/static/js/2.bff3e743.chunk.js",
+    "static/js/2.bff3e743.chunk.js.map": "/DeltaDesign/static/js/2.bff3e743.chunk.js.map",
+    "index.html": "/DeltaDesign/index.html",
+    "static/css/2.d419838c.chunk.css.map": "/DeltaDesign/static/css/2.d419838c.chunk.css.map",
+    "static/css/main.1a1a0a2a.chunk.css.map": "/DeltaDesign/static/css/main.1a1a0a2a.chunk.css.map",
+    "static/js/2.bff3e743.chunk.js.LICENSE.txt": "/DeltaDesign/static/js/2.bff3e743.chunk.js.LICENSE.txt",
+    "static/media/tailwind.css": "/DeltaDesign/static/media/background-1920x1080.474861b8.jpg",
+    "static/media/all.min.css": "/DeltaDesign/static/media/fa-solid-900.efbd5d20.eot",
+    "static/media/logo_delta.255226ba.png": "/DeltaDesign/static/media/logo_delta.255226ba.png",
+    "static/media/team-1-800x800.fa5a7ac2.jpg": "/DeltaDesign/static/media/team-1-800x800.fa5a7ac2.jpg",
+    "static/media/team-2-800x800.3e08ef14.jpg": "/DeltaDesign/static/media/team-2-800x800.3e08ef14.jpg",
+    "static/media/team-2-800x800.780f37e2.png": "/DeltaDesign/static/media/team-2-800x800.780f37e2.png",
+    "static/media/team-3-800x800.19201574.jpg": "/DeltaDesign/static/media/team-3-800x800.19201574.jpg",
+    "static/media/team-4-470x470.4ef82ef4.png": "/DeltaDesign/static/media/team-4-470x470.4ef82ef4.png",
+    "static/media/teamwork.217c0d67.jpeg": "/DeltaDesign/static/media/teamwork.217c0d67.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8c21fde0.js",
+    "static/css/2.d419838c.chunk.css",
+    "static/js/2.bff3e743.chunk.js",
+    "static/css/main.1a1a0a2a.chunk.css",
+    "static/js/main.71440630.chunk.js"
+  ]
+}

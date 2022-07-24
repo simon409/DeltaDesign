@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 import LeadText from "@material-tailwind/react/LeadText";
 
 export default function Header() {
-  const [t, i18n] = useTranslation();
+  const [t] = useTranslation();
   document.title = t("title");
   return (
     <div className="relative pt-16 pb-32 flex content-center items-center justify-center h-screen">
