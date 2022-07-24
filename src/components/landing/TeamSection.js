@@ -6,7 +6,7 @@ import Image3 from "assets/img/team-3-800x800.jpeg";
 import { useTranslation } from "react-i18next";
 
 export default function TeamSection() {
-  const [t, i18n] = useTranslation();
+  const [t] = useTranslation();
   return (
     <section className="pt-20 pb-48">
       <div className="container max-w-7xl mx-auto px-4">

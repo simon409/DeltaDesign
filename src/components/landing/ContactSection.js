@@ -4,7 +4,7 @@ import Form from "components/landing/Form";
 import { useTranslation } from "react-i18next";
 
 export default function ContactSection() {
-  const [t, i18n] = useTranslation();
+  const [t] = useTranslation();
   return (
     <section className="pb-20 relative block bg-gray-100">
       <div className="container max-w-full mx-auto px-4 lg:pt-24">
