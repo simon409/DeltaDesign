@@ -19,3 +19,9 @@
         --tw-translate-x: -50% !important;
     }
 }
+
+@media only screen and (max-width : 768px) {
+	.navbar-collapse {
+	background-color: #A07C00;
+}
+}

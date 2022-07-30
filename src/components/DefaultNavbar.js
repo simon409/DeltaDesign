@@ -9,6 +9,7 @@ import { Icon } from "@material-tailwind/react";
 import NavbarWrapper from "@material-tailwind/react/NavbarWrapper";
 import NavbarBrand from "@material-tailwind/react/NavbarBrand";
 import NavbarToggler from "@material-tailwind/react/NavbarToggler";
+import "../assets/styles/index.css";
 import NavbarCollapse from "@material-tailwind/react/NavbarCollapse";
 import Nav from "@material-tailwind/react/Nav";
 import NavLink from "@material-tailwind/react/NavLink";
@@ -32,9 +33,9 @@ export default function DefaultNavbar() {
           />
         </NavbarWrapper>
 
-        <NavbarCollapse open={openNavbar}>
+        <NavbarCollapse className="navbar-collapse " open={openNavbar}>
           <Nav>
-            <div className="flex flex-col z-50 lg:flex-row lg:items-center">
+            <div className="rounded-xl flex flex-col z-50 lg:flex-row lg:items-center ">
               <NavLink href="/" rel="noreferrer" ripple="light">
                 <Icon name="home" size="xl" />
                 &nbsp;
@@ -45,7 +46,7 @@ export default function DefaultNavbar() {
                 &nbsp;
                 {t("about")}
               </NavLink>
-              <NavLink href="/login" rel="noreferrer" ripple="light">
+              <NavLink href="/services" rel="noreferrer" ripple="light">
                 <Icon name="work" size="xl" />
                 &nbsp;
                 {t("portfolio")}

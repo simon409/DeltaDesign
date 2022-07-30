@@ -1,6 +1,7 @@
 import { Switch, Route, Redirect } from "react-router-dom";
 import Landing from "pages/Landing";
 import Profile from "pages/Profile";
+import Services from "pages/services";
 import i18n from "i18n";
 import cookies from "cookies/cookie";
 // Font Awesome Style Sheet
@@ -19,6 +20,7 @@ function App() {
     <Switch>
       <Route exact path="/" component={Landing} />
       <Route exact path="/profile" component={Profile} />
+      <Route exact path="/services" component={Services} />
       <Redirect from="*" to="/" />
     </Switch>
   );

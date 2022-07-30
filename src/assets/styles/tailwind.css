@@ -554,12 +554,6 @@ video {
 .ml-2{
 	margin-left: 0.5rem;
 }
-.mb-12{
-	margin-bottom: 3rem;
-}
-.mb-4{
-	margin-bottom: 1rem;
-}
 .mb-6{
 	margin-bottom: 1.5rem;
 }
@@ -578,8 +572,14 @@ video {
 .mt-2{
 	margin-top: 0.5rem;
 }
+.mb-4{
+	margin-bottom: 1rem;
+}
 .mt-5{
 	margin-top: 1.25rem;
+}
+.mb-12{
+	margin-bottom: 3rem;
 }
 .mr-auto{
 	margin-right: auto;
@@ -709,6 +709,9 @@ video {
 }
 .rounded-full{
 	border-radius: 9999px;
+}
+.rounded-xl{
+	border-radius: 0.75rem;
 }
 .rounded-lg{
 	border-radius: 0.5rem;
@@ -2478,6 +2481,11 @@ video {
 .lg\:justify-start{justify-content:flex-start}
 .lg\:px-36{padding-left:9rem;padding-right:9rem}
 .lg\:text-left{text-align:left}}
+@media only screen and (max-width : 768px) {
+	.navbar-collapse {
+	background-color: #A07C00;
+}
+}
 .hover\:text-gray-900:hover{
 	--tw-text-opacity: 1;
 	color: rgba(17, 24, 39, var(--tw-text-opacity));
