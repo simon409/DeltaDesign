@@ -1,5 +1,4 @@
 import React from "react";
-import "assets/styles/error.css";
 import ErrorCom from "components/404";
 
 function Error() {
