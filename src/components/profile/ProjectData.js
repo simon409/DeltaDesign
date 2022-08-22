@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import { Image } from "@material-tailwind/react";
 import Button from "@material-tailwind/react/Button";
+import "./index.css";
 import Papa from "papaparse";
 
 const ProjectData = (search) => {
-  const [data, setData] = useState({})
+  const [data, setData] = useState({});
   Papa.parse(
     "https://docs.google.com/spreadsheets/d/e/2PACX-1vSjjIvAYzEcrYs4Z8Shoo3Oa5anmUW-VVtmOfDAj_XY64MQA4cuFlg2IQbRpEPADYbtKXobJM2GuGXQ/pub?output=csv",
     {
