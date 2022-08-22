@@ -29,7 +29,6 @@ Use a better box model (opinionated).
 Use a more readable tab size (opinionated).
 */
 html {
-	-moz-tab-size: 4;
 	tab-size: 4;
 }
 /**
@@ -40,86 +39,6 @@ html {
 	line-height: 1.15; /* 1 */
 	-webkit-text-size-adjust: 100%; /* 2 */
 }
-
-
-
-.projectgrid{
-	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-	gap: 20px;
-}
-
-.search-box {
-  position: absolute;
-	margin-top: 50px;
-  top : 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: #003F88;
-  height: 50px;
-  border-radius: 40px;
-  padding: 10px;
-  display: flex;
-}
-
-.search-box:hover > .search-text{
-  width: 240px;
-  padding: 0 2px;
-}
-
-@media screen and (max-width: 640px) {
-
-	.search-box:hover > .search-text{
-		width: 240px;
-		padding: 0 2px;
-	}
-	
-}
-
-.search-box:hover > .search-btn{
-  background: white;
-  color: black;
-  
-}
-
-.search-btn {
-  color: #F1BB00;
-  float: right;
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  background: #003F88;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: 0.4s;
-  cursor: pointer;
-  text-decoration: none;
-  
-}
-.search-btn > i {
-  font-size: 20px;
-}
-
-.search-text {
-  border: none;
-  background: none;
-  outline: none;
-  float: left;
-  padding: 0;
-  color: white;
-  font-size: 16px;
-  font-weight: normal;
-  transition: 0.4s;
-  line-height: 28px;
-  width: 0px;
-  
-/*   width: 250px; */
-  
-  
-  
-}
-
 /*
 Sections
 ========
@@ -535,6 +454,7 @@ iframe,
 embed,
 object {
   display: block; /* 1 */
+  vertical-align: middle; /* 2 */
 }
 /**
  * Constrain images and videos to the parent width and preserve
@@ -1103,8 +1023,7 @@ Use a better box model (opinionated).
 Use a more readable tab size (opinionated).
 */
 html {
-	-moz-tab-size: 4;
-	   tab-size: 4;
+	tab-size: 4;
 }
 /**
 1. Correct the line height in all browsers.
@@ -1518,6 +1437,7 @@ iframe,
 embed,
 object {
   display: block;
+  vertical-align: middle;
 }
 /**
  * Constrain images and videos to the parent width and preserve

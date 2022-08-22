@@ -1,7 +1,6 @@
 import H3 from "@material-tailwind/react/Heading3";
 import Paragraph from "@material-tailwind/react/Paragraph";
 import Input from "@material-tailwind/react/Input";
-import { useRef } from "react";
 import { useTranslation } from "react-i18next";
 import "./style.css";
 import { Icon } from "@material-tailwind/react";
@@ -11,8 +10,6 @@ import Button from "@material-tailwind/react/Button";
 
 export default function Form() {
   const [t] = useTranslation();
-
-  const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
