@@ -9,7 +9,7 @@ import LeadText from "@material-tailwind/react/LeadText";
 import Paragraph from "@material-tailwind/react/Paragraph";
 import Button from "@material-tailwind/react/Button";
 import StatusCard from "components/landing/StatusCard";
-import Teamwork from "assets/img/teamwork.jpeg";
+import Teamwork from "assets/img/teamwork.jpg";
 
 export default function WorkingSection() {
   const [t] = useTranslation();
@@ -44,7 +44,7 @@ export default function WorkingSection() {
             <H4 color="gray">{t("Working_with_us")}</H4>
             <LeadText color="blueGray">{t("working_with_us_desc_1")}</LeadText>
             <LeadText color="blueGray">{t("working_with_us_desc_2")}</LeadText>
-            <a href="/">
+            <a href="https://forms.gle/BfkrRgXW3tmsXgZMA">
               <Button color="lightBlue" buttonType="link" ripple="dark">
                 {t("start_now")}
               </Button>

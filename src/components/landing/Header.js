@@ -13,7 +13,9 @@ export default function Header() {
           <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
             <H2 color="white">{t("welcome_to_deltadesign")}</H2>
             <div className="text-gray-200">
-              <LeadText color="gray-200">{t("your_dream")}</LeadText>
+              <LeadText color="gray-200">
+                {t("your_dream")}
+              </LeadText>
             </div>
           </div>
         </div>

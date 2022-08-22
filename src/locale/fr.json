@@ -1,7 +1,6 @@
 {
 	"home": "Acceuil",
 	"about" : "À propos",
-	"portfolio" : "Services",
 	"lang" : "Langue",
 	"welcome_to_deltadesign" : "Bienvenue sur DeltaDesign",
 	"your_dream" : "Vos rêves commencent ici",
@@ -37,5 +36,18 @@
 	"phone_num" : "Numéro de téléphone",
 	"send_message" : "Envoyer le message",
 	"News" : "Journal",
-	"discount" : "Remise"
+	"discount" : "Remise",
+	"useful_link" : "Liens utiles",
+	"message_sent" : "message envoyé avec succès!",
+	"message_sent_p2" : "Nous vous répondrons sous peu !",
+	"message_not_sent" : "Pas envoyé!",
+	"message_not_sent_p2" : " Nous avons eu du mal à faire passer le message. veuillez contacter (+212611051318)",
+	"ui/ux_design" : "Conception UI/UX",
+	"website_creation" : "Création de site web",
+	"video_editing" : "Montage vidéo",
+	"graphic_design" : "Conception graphique",
+	"ads_making" : "Création d'annonces",
+	"office_services" : "Services Microsoft Office",
+	"page_not_found" : "Page non trouvée",
+	"go_home" : "Aller à la page d'accueil"
 }

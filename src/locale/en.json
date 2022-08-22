@@ -1,7 +1,6 @@
 {
 	"home": "Home",
 	"about" : "About us",
-	"portfolio" : "Services",
 	"lang" : "Language",
 	"welcome_to_deltadesign" : "Welcome to DeltaDesign",
 	"your_dream" : "Your dreams start here",
@@ -44,5 +43,14 @@
 	"message_sent" : "message sent successfully!",
 	"message_sent_p2" : "We will get to you Shortly!",
 	"message_not_sent" : "Not sent!",
-	"message_not_sent_p2" : " We had difficulty sending the message. please contact (+212611051318)"
+	"message_not_sent_p2" : " We had difficulty sending the message. please contact (+212611051318)",
+	"ui/ux_design" : "UI/UX design",
+	"website_creation" : "Website Creation",
+	"video_editing" : "Video Editing",
+	"graphic_design" : "Graphic Design",
+	"ads_making" : "Ads Making",
+	"office_services" : "Microsoft Office Services",
+	"page_not_found" : "Page not found",
+	"go_home" : "Go To Home"
+	
 }

@@ -33,7 +33,7 @@ export default function DefaultNavbar() {
           />
         </NavbarWrapper>
 
-        <NavbarCollapse className="navbar-collapse " open={openNavbar}>
+        <NavbarCollapse className="navbar-collapse" open={openNavbar}>
           <Nav>
             <div className="rounded-xl flex flex-col z-50 lg:flex-row lg:items-center ">
               <NavLink href="/" rel="noreferrer" ripple="light">
@@ -45,11 +45,6 @@ export default function DefaultNavbar() {
                 <Icon name="groups" size="xl" />
                 &nbsp;
                 {t("about")}
-              </NavLink>
-              <NavLink href="/services" rel="noreferrer" ripple="light">
-                <Icon name="work" size="xl" />
-                &nbsp;
-                {t("portfolio")}
               </NavLink>
               <div className="text-white">
                 <Dropdown

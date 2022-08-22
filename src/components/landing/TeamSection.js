@@ -8,7 +8,7 @@ import { useTranslation } from "react-i18next";
 export default function TeamSection() {
   const [t] = useTranslation();
   return (
-    <section className="pt-20 pb-48">
+    <section className="pb-48">
       <div className="container max-w-7xl mx-auto px-4">
         <Title heading={t("here_our_heroes")}>
           {t("here_our_heroes_desc")}

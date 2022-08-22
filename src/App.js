@@ -1,9 +1,9 @@
 import { Switch, Route, Redirect } from "react-router-dom";
 import Landing from "pages/Landing";
 import Profile from "pages/Profile";
-import Services from "pages/services";
 import i18n from "i18n";
 import cookies from "cookies/cookie";
+import Error from "pages/Error";
 // Font Awesome Style Sheet
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
@@ -20,8 +20,8 @@ function App() {
     <Switch>
       <Route exact path="/" component={Landing} />
       <Route exact path="/profile" component={Profile} />
-      <Route exact path="/services" component={Services} />
-      <Redirect from="*" to="/" />
+      <Route exact path="/404" component={Error} />
+      <Redirect from="*" to="/404" />
     </Switch>
   );
 }

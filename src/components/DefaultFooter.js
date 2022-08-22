@@ -15,7 +15,7 @@ export default function DefaultFooter() {
               <div className="-mt-4">
                 <LeadText color="blueGray">You dream, We make!</LeadText>
               </div>
-              <div className="flex gap-2 mt-6 md:justify-start md:mb-0 mb-8 justify-center">
+              <div className="flex gap-2 mt-6 md:justify-center md:mb-8 mb-8 justify-center">
                 <a
                   href="https://www.facebook.com/deltadesign.ma"
                   className="grid place-items-center bg-white text-blue-600 shadow-md font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none"

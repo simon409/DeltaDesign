@@ -40,6 +40,86 @@ html {
 	line-height: 1.15; /* 1 */
 	-webkit-text-size-adjust: 100%; /* 2 */
 }
+
+
+
+.projectgrid{
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	gap: 20px;
+}
+
+.search-box {
+  position: absolute;
+	margin-top: 50px;
+  top : 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #003F88;
+  height: 50px;
+  border-radius: 40px;
+  padding: 10px;
+  display: flex;
+}
+
+.search-box:hover > .search-text{
+  width: 240px;
+  padding: 0 2px;
+}
+
+@media screen and (max-width: 640px) {
+
+	.search-box:hover > .search-text{
+		width: 240px;
+		padding: 0 2px;
+	}
+	
+}
+
+.search-box:hover > .search-btn{
+  background: white;
+  color: black;
+  
+}
+
+.search-btn {
+  color: #F1BB00;
+  float: right;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #003F88;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+  cursor: pointer;
+  text-decoration: none;
+  
+}
+.search-btn > i {
+  font-size: 20px;
+}
+
+.search-text {
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: white;
+  font-size: 16px;
+  font-weight: normal;
+  transition: 0.4s;
+  line-height: 28px;
+  width: 0px;
+  
+/*   width: 250px; */
+  
+  
+  
+}
+
 /*
 Sections
 ========
@@ -613,9 +693,6 @@ video {
 .-mt-20{
 	margin-top: -5rem;
 }
-.mr-4{
-	margin-right: 1rem;
-}
 .mt-0{
 	margin-top: 0px;
 }
@@ -738,6 +815,9 @@ video {
 }
 .rounded-2xl{
 	border-radius: 1rem;
+}
+.rounded-md{
+	border-radius: 0.375rem;
 }
 .border-t{
 	border-top-width: 1px;
@@ -862,6 +942,9 @@ video {
 .pb-20{
 	padding-bottom: 5rem;
 }
+.pt-24{
+	padding-top: 6rem;
+}
 .pt-16{
 	padding-top: 4rem;
 }
@@ -884,6 +967,10 @@ video {
 	font-size: 0.875rem;
 	line-height: 1.25rem;
 }
+.text-4xl{
+	font-size: 2.25rem;
+	line-height: 2.5rem;
+}
 .text-xl{
 	font-size: 1.25rem;
 	line-height: 1.75rem;
@@ -897,11 +984,14 @@ video {
 .font-bold{
 	font-weight: 700;
 }
+.font-semibold{
+	font-weight: 600;
+}
+.font-light{
+	font-weight: 300;
+}
 .uppercase{
 	text-transform: uppercase;
-}
-.tracking-wide{
-	letter-spacing: 0.025em;
 }
 .text-blue-600{
 	--tw-text-opacity: 1;
@@ -2529,6 +2619,9 @@ video {
 	outline-offset: 2px;
 }
 @media (min-width: 768px){
+	.md\:mb-8{
+		margin-bottom: 2rem;
+	}
 	.md\:mb-0{
 		margin-bottom: 0px;
 	}
@@ -2541,8 +2634,8 @@ video {
 	.md\:w-5\/12{
 		width: 41.666667%;
 	}
-	.md\:justify-start{
-		justify-content: flex-start;
+	.md\:justify-center{
+		justify-content: center;
 	}
 	.md\:justify-between{
 		justify-content: space-between;
@@ -2563,9 +2656,6 @@ video {
 	}
 	.lg\:mt-0{
 		margin-top: 0px;
-	}
-	.lg\:mr-4{
-		margin-right: 1rem;
 	}
 	.lg\:hidden{
 		display: none;
@@ -2599,9 +2689,6 @@ video {
 	}
 	.lg\:p-10{
 		padding: 2.5rem;
-	}
-	.lg\:pt-24{
-		padding-top: 6rem;
 	}
 	.lg\:pt-4{
 		padding-top: 1rem;
